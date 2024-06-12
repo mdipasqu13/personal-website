@@ -48,3 +48,7 @@
   body {
     padding-top: 10px; 
   }
+
+#about, #skills, #projects, #contact {
+    scroll-margin-top: 200px; 
+  }
