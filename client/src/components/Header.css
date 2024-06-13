@@ -21,13 +21,19 @@
   }
   
   .nav-links li {
-    margin: 0;
+    margin-right: 20px;
   }
   
   .nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+  }
+
+  .nav-links li:not(:last-child)::after {
+    content: "|";
+    margin-left: 20px; 
+    color: white; 
   }
   
   .header-content {
