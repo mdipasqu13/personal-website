@@ -13,8 +13,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className="header-content">
-        <h1>Michael DiPasquale</h1>
-        <p>Software Engineer</p>
+        {/* <h1>Michael DiPasquale</h1>
+        <p>Software Engineer</p> */}
       </div>
     </header>
   );

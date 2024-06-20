@@ -6,7 +6,6 @@ const About = () => {
     <section id="about" className="about">
       <h2>About Me</h2>
       <div className="about-content">
-        <img src="profile-photo.jpeg" alt="Michael DiPasquale" className="about-photo" />
         <div className="about-text">
           <p>
             Former Educator turned Full Stack Software Engineer with an interest in creating apps with intuitive and streamlined user experiences. Experienced in Javascript and React, with a background in anthropology, education, program management, coaching, team building and professional development.
