@@ -7,9 +7,9 @@ import Contact from '../components/Contact';
 import './App.css';
 
 function App() {
-  useEffect(() => {
-    document.body.style.backgroundColor = '#E5E3E2';
-  }, []);
+  // useEffect(() => {
+  //   document.body.style.backgroundColor = '#E5E3E2';
+  // }, []);
 
   return (
     <div className="app">

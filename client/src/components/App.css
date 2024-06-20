@@ -12,6 +12,10 @@
     align-items: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.285);
+    background-image: 'testbackground.jpeg';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .profile-photo {
@@ -19,7 +23,7 @@
     max-height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: 150px; 
+    margin-top: 100px; 
     margin-bottom: 20px;
     margin-left: 150px;
   }
