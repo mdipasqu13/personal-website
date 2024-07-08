@@ -7,16 +7,29 @@ import Contact from '../components/Contact';
 import './App.css';
 
 function App() {
-  // useEffect(() => {
-  //   document.body.style.backgroundColor = '#E5E3E2';
-  // }, []);
+ 
+
+  const leftHalfStyle = {
+    width: '30%',
+    backgroundColor: '#f0f0f0',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    padding: '20px',
+    backgroundImage: `url(${process.env.PUBLIC_URL}/backgrounddark.jpeg)`,
+    backgroundRepeat: 'no-repeat', 
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center', 
+  };
 
   return (
     <div className="app">
       <div className="container">
-        <div className="left-half">
+        <div className="left-half" style={leftHalfStyle}>
           <img src="profile-photo.jpeg" alt="Michael DiPasquale" className="profile-photo" />
-          <h2 className="profile-name">Michael DiPasquale</h2>
+          
+          <h2 className="profile-name">Michael DiPasquale</h2> 
           <p className="profile-title">Full Stack Web Developer</p>
           <div className="social-icons">
             <a href="https://github.com/mdipasqu13" target="_blank" rel="noopener noreferrer">
