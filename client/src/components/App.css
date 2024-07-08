@@ -11,8 +11,11 @@
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    color: white
-    /* background-color: rgba(0, 0, 0, 0.285); */
+    background-color: rgba(0, 0, 0, 0.285);
+    background-image: 'testbackground.jpeg';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .profile-photo {
@@ -44,7 +47,7 @@
   }
   
   .email-link {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-size: 14px;
     text-align: center;
@@ -59,8 +62,7 @@
   .right-half {
     width: 70%;
     overflow-y: auto;
-    padding: 0px;
-    background-color: rgba(249, 248, 248, 0.958);
+    padding: 20px;
   }
   .profile-name {
     margin-top: 10px;
@@ -76,6 +78,6 @@
     margin-bottom: 15px;
     text-align: center;
     font-size: 1em;
-    color: white;
+    color: #666;
     margin-left: 150px;
   }

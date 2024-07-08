@@ -7,7 +7,7 @@
     color: white;
     padding: 10px 0;
     z-index: 1000;
-    margin: 0;
+    margin-top: 0px;
   }
   
   .nav {
@@ -39,6 +39,7 @@
   
   .header-content {
     text-align: center;
+    margin-top: 10px;
   }
   
   .header-content h1 {
@@ -47,14 +48,14 @@
   }
   
   .header-content p {
+    margin: 5px;
     font-size: 16px;
-    margin: 0;
   }
   
-  
+  body {
+    padding-top: 10px; 
+  }
 
 #about, #skills, #projects, #contact {
-    scroll-margin-top: 90px; 
+    scroll-margin-top: 200px; 
   }
-
-  
