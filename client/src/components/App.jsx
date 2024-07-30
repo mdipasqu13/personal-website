@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import Header from '../components/Header';
-import About from '../components/About';
-import Skills from '../components/Skills';
-import Projects from '../components/Projects';
-import Contact from '../components/Contact';
+import Header from './Header';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact';
 import './App.css';
 
 function App() {
