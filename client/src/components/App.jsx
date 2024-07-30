@@ -3,7 +3,7 @@ import Header from './Header';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
-import Contact from './Contact';
+// import Contact from './Contact';
 import './App.css';
 
 function App() {
@@ -57,9 +57,9 @@ function App() {
           <section id="projects">
             <Projects />
           </section>
-          <section id="contact">
+          {/* <section id="contact">
             <Contact />
-          </section>
+          </section> */}
         </div>
       </div>
     </div>
